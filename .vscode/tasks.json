@@ -1,0 +1,59 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "process",
+            "command": "hugo"
+        },
+        {
+            "label": "serve",
+            "type": "process",
+            "command": "hugo",
+            "args": [
+                "serve"
+            ]
+        },
+        {
+            "label": "browse",
+            "command": "Browse",
+            "type": "process",
+            "windows": {
+                "command": "explorer"
+            },
+            "osx": {
+                "command": "open"
+            },
+            "linux": {
+                "command": "x-www-browser"
+            },
+            "args": [
+                "http://localhost:1313/cv-site"
+            ]
+        },
+        {
+            "label": "launch",
+            "dependsOn": [
+                "build",
+                "serve",
+                "browse"
+            ],
+            "problemMatcher": []
+        },
+        {
+            "label": "docker",
+            "type": "shell",
+            "command": "docker",
+            "args": [
+                "run",
+                "-p", "1313:1313",
+                "-v", "${workspaceFolder}:/src",
+                "-v", "${workspaceFolder}/.cache:/tmp/hugo_cache",
+                "hugomods/hugo:exts",
+                "hugo", "server", "--bind", "0.0.0.0", "--poll", "750ms"
+            ]
+        }
+    ]
+}

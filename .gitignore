@@ -1,0 +1,15 @@
+# Hugo Files
+.hugo_build.lock
+/public
+/themes/**
+/.cache
+
+## OS Files
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# OSX
+.DS_Store
