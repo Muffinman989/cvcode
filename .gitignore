@@ -1,10 +1,8 @@
 # Hugo Files
 .hugo_build.lock
-.cache/*
 /public
-
-# exception to the rule
-!.cache/.gitkeep 
+/themes/**
+/.cache
 
 ## OS Files
 # Windows

@@ -1,4 +1,4 @@
-baseURL = "https://muffinman989.github.io/cvsite/"
+baseURL = "https://muffinman989.github.io/resume/"
 languageCode = "en-us"
 title = "Dustin Dos Santos - Resume"
 theme = "hugo-orbit-theme"
@@ -16,7 +16,7 @@ styles = "custom.css"
 [params.profile]
     name = "Dustin Dos Santos"
     tagline = "VFX Graphics Specialist"
-    avatar = "avatar.png"
+    avatar = "profile.jpg"
 
 # Contact section
 [params.contact]
