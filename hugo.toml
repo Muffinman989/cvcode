@@ -1,0 +1,204 @@
+baseURL = "https://muffinman989.github.io/cvsite/"
+languageCode = "en-us"
+title = "Dustin Dos Santos - Resume"
+theme = "hugo-orbit-theme"
+
+disableRSS = true
+disableSitemap = true
+disable404 = true
+
+[params]
+description = "Resume for Dustin Dos Santos"
+author = "Dustin Dos Santos"
+styles = "custom.css"
+
+# Profile section
+[params.profile]
+    name = "Dustin Dos Santos"
+    tagline = "VFX Graphics Specialist"
+    avatar = "avatar.png"
+
+# Contact section
+[params.contact]
+    enable = true
+
+    [[params.contact.list]]
+        class = "email"
+        icon = "fa-envelope"
+        url = "mailto: merlin989@gmail.com"
+        title = "merlin989@gmail.com"
+
+    [[params.contact.list]]
+        class = "phone"
+        icon = "fa-phone"
+        url = "tel:+447477193972"
+        title = "07477193972"
+
+    [[params.contact.list]]
+        class = "website"
+        icon = "fa-globe"
+        url = "//muffinman989.github.io/resume"
+        title = "github.io/resume"
+
+    [[params.contact.list]]
+        class = "linkedin"
+        icon = "fa-linkedin"
+        url = "//linkedin.com/in/dustin-dos-santos-48748b97/"
+        title = "linkedin.com/dustin-dos-santos"
+
+    [[params.contact.list]]
+        class = "github"
+        icon = "fa-github"
+        url = "//github.com/muffinman989"
+        title = "github.com/muffinman989"
+
+# Education section
+[params.education]
+    enable = true
+    title = "Education"
+
+    [[params.education.list]]
+        degree = "BSc in Game Development"
+        college = "Media Design School"
+        dates = "2011 - 2014"
+
+    [[params.education.list]]
+        degree = "BSc in Computer Science"
+        college = "University of Johannesburg"
+        dates = "2004 - 2008"
+
+# Languages section
+[params.language]
+    enable = true
+    title = "Languages"
+
+    [[params.language.list]]
+        language = "English"
+        level = "Native"
+
+
+# Interests section
+[params.interests]
+enable = true
+title = "Interests"
+
+    [[params.interests.list]]
+    interest = "Gym"
+
+    [[params.interests.list]]
+    interest = "Music"
+
+    [[params.interests.list]]
+    interest = "Movies and Documentaries"
+
+    [[params.interests.list]]
+    interest = "Advanced Sciences"
+
+# Main body sections
+
+    # You may use markdown in summary, details and intro fields. But don't overdose, it's resume!:)
+
+    # Summary section
+    [params.summary]
+        enable = true
+        icon = "fa-user"
+        title = "Career Profile"
+        summary = "**Summarise your career here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu."
+
+    # Experiences section
+    [params.experiences]
+        enable = true
+        icon = "fa-briefcase"
+        title = "Experiences"
+
+        [[params.jobs.list]]
+        position = "Lead Developer"
+        dates = "2015 - Present"
+        company = "Startup Hubs, San Francisco"
+        details = "/content/experiences/default.md"
+
+        [[params.jobs.list]]
+        position = "Senior Software Engineer"
+        dates = "2014 - 2015"
+        company = "Google, London"
+        details = "/content/experiences/default.md"
+
+        [[params.jobs.list]]
+        position = "UI Developer"
+        dates = "2012 - 2014"
+        company = "Amazon, London"
+        details = "/content/experiences/default.md"
+
+    # Projects section
+    [params.projects]
+        enable = true
+        icon = "fa-archive"
+        title = "Projects"
+        intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
+
+        [[params.projects.list]]
+        title = "Hugrid"
+        url = "https://github.com/aerohub/hugrid"
+        tagline = "Grid theme for Hugo. It's a kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on"
+
+        [[params.projects.list]]
+        title = "Simple FAQ Theme for Hugo"
+        url = "https://github.com/aerohub/hugo-faq-theme"
+        tagline = "Simple FAQ Theme for Hugo. You may use this theme for building very simple FAQs or note lists."
+
+        [[params.projects.list]]
+        title = "Hugo Identity"
+        url = "https://github.com/aerohub/hugo-identity-theme"
+        tagline = "Little profile/card-style template for Hugo."
+
+        [[params.projects.list]]
+        title = "Orbit"
+        url = "https://github.com/aerohub/hugo-orbit-theme"
+        tagline = "Hugo Resume/CV Theme for Developers."
+
+        [[params.projects.list]]
+        title = "Me"
+        url = "https://github.com/aerohub/hugo-me-theme"
+        tagline = "A simple responsive Hugo theme for personal site."
+
+    # Skills section
+    [params.skills]
+        enable = true
+        icon = "fa-rocket"
+        title = "Skills & Proficiency"
+
+        [[params.skills.list]]
+        skill = "Python & Django"
+        level = "98%"
+                
+        [[params.skills.list]]
+        skill = "Javascript & jQuery"
+        level = "98%"
+
+        [[params.skills.list]]
+        skill = "Angular"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "HTML5 & CSS"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "Ruby on Rails"
+        level = "75%"
+
+        [[params.skills.list]]
+        skill = "Sketch & Photoshop"
+        level = "60%"
+
+    # Footer section
+
+    # The original template is released under the Creative Commons Attribution 3.0 License.
+    # Please keep the original attribution link when using for your own project.
+    # If you'd like to use the template without the attribution,
+    # you can check out other license options via template author's website: themes.3rdwavemedia.com
+    # 
+    # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
+
+    [params.footer]
+        copyright = ""

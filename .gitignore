@@ -1,0 +1,17 @@
+# Hugo Files
+.hugo_build.lock
+.cache/*
+/public
+
+# exception to the rule
+!.cache/.gitkeep 
+
+## OS Files
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# OSX
+.DS_Store
