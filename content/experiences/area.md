@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD041 -->
 
-A tech startup company focusing on three key products: 
+A tech startup company focusing on three key products for venue experiences.
 
 ##### Products Under Develpment:
 
@@ -10,7 +10,6 @@ A tech startup company focusing on three key products:
 
 ##### References:
 
-URL: https://nz.linkedin.com/company/stqry
-
+Website: https://nz.linkedin.com/company/stqry
 
 <!-- markdownlint-disable MD041 -->

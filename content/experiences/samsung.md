@@ -2,7 +2,7 @@
 
 The role involved reading white papers implementing state of the art algorithms with a graphics/computer vision solutions often involving ML for PC and mobile platforms.
 
-### Frame Interpolation
+#### Frame Interpolation
 
 A ML model deisgned to generate a predictive frame given a sequence of previous frames within realtime frame rates.
 
@@ -10,28 +10,28 @@ A ML model deisgned to generate a predictive frame given a sequence of previous 
 * Profile models on Device for realtime proformance
 * Vulkan Proof of Concept (POC) for shared NPU memory
 
-References:
+##### References
 
-* URL: https://liuziwei7.github.io/projects/VoxelFlow
+* GitHub: https://liuziwei7.github.io/projects/VoxelFlow
 
-### 3D Avatar Generation
+#### 3D Avatar Generation
 
 A realistic 3D avatar capture for mobile devices from single image capture.
 
 * Post processing optimization based solution for mesh deformation based on 2D features and blendshapes.
 * Intrinsic camera parameter estimation cost function on reprojection error
 
-#### Patents
+##### Patents
 
 * Name: ""
 * Role: Co-inventor with 7 other colleagues as part of the 3D Avatar Generation at Samsung
 * Status: Pending
 
-References:
+##### References
 
-* URL: https://deca.is.tue.mpg.de/
+* WebSite: https://deca.is.tue.mpg.de/
 
-### Blendshape Mapping
+#### Blendshape Mapping
 
 The mapping solution between sematically similar blendshapes across meshes with different topological layouts.
 
@@ -41,17 +41,17 @@ The mapping solution between sematically similar blendshapes across meshes with 
 
 * Python based Maya scripts to support Artist workflows for 3D meshes, Demo videos and Finetuning/Testing the Results.
 
-References:
+##### References
 
-* URL: https://ls7-gv.cs.tu-dortmund.de/publications/2017-faces.pdf
+* Paper: https://ls7-gv.cs.tu-dortmund.de/publications/2017-faces.pdf
 
-#### Patents
+##### Patents
 
 * Name: ""
 * Role: Co-inventor with 3 other colleagues as part of the Blendshape Mapping
 * Status: Pending
 
-### Cloth Physics
+#### Cloth Physics
 
 A cloth based physics simulation for clothing items on avatars for mobile devices.
 
@@ -59,13 +59,13 @@ A cloth based physics simulation for clothing items on avatars for mobile device
 
 * Experimentation with Block based gradient decent with compute shaders.
 
-References:
+##### References
 
-* URL: http://graphics.berkeley.edu/papers/Liu-FSM-2013-11/Liu-FSM-2013-11.pdf
+* Paper: http://graphics.berkeley.edu/papers/Liu-FSM-2013-11/Liu-FSM-2013-11.pdf
 
-### Deep Reinforcement Learning for Animation
+#### Deep Reinforcement Learning for Animation
 
-An ML based solution to drive a skeleton to walk around in a virtual environment with physics.
+An ML based solution to drive a skeleton around in a virtual environment with physics.
 
 * A Reinforcement Learning (RL) based solution training a policy based model with different reward functions and preparing training data.
 
@@ -73,8 +73,8 @@ An ML based solution to drive a skeleton to walk around in a virtual environment
 
 * Google Protocal buffers for network based integration between python based RL solution to Unreal simulation environments.
 
-References:
+##### References
 
-* URL: https://ls7-gv.cs.tu-dortmund.de/publications/2017-faces.pdf
+* Paper: https://ls7-gv.cs.tu-dortmund.de/publications/2017-faces.pdf
 
 <!-- markdownlint-disable MD041 -->

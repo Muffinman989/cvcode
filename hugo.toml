@@ -178,18 +178,6 @@ title = "Interests"
             "Flash scripting"
         ]
 
-    # Projects section
-    [params.projects]
-        enable = true
-        icon = "fa-archive"
-        title = "Projects"
-        intro = "The following projects include university projects and projects undertaken at during my personal time."
-
-        [[params.projects.list]]
-        title = "Off Da Railz"
-        url = "https://www.youtube.com/watch?v=vdIptHqYp8w"
-        tagline = "University Game Project"
-
     # Skills section
     [params.skills]
         enable = true
@@ -209,8 +197,12 @@ title = "Interests"
         level = "70%"
 
         [[params.skills.list]]
-        skill = "Android Studio & VS Code & Visual Studio"
+        skill = "Android Studio"
         level = "70%"
+
+        [[params.skills.list]]
+        skill = "VS Code & Visual Studio"
+        level = "70%"        
 
         [[params.skills.list]]
         skill = "Unity & Unreal"
