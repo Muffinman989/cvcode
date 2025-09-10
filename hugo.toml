@@ -16,7 +16,7 @@ styles = "custom.css"
 [params.profile]
     name = "Dustin Dos Santos"
     tagline = "Graphics & Computer Vision"
-    avatar = "profile.jpg"
+    avatar = "avatar.png"
 
 # Contact section
 [params.contact]
