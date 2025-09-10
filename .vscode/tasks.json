@@ -30,7 +30,7 @@
                 "command": "x-www-browser"
             },
             "args": [
-                "http://localhost:1313/cv-site"
+                "http://localhost:1313/cvsite"
             ]
         },
         {
