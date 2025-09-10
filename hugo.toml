@@ -15,8 +15,8 @@ styles = "custom.css"
 # Profile section
 [params.profile]
     name = "Dustin Dos Santos"
-    tagline = "VFX Graphics Specialist"
-    avatar = "avatar.png"
+    tagline = "Graphics & Computer Vision"
+    avatar = "profile.jpg"
 
 # Contact section
 [params.contact]
@@ -86,13 +86,16 @@ title = "Interests"
     interest = "Gym"
 
     [[params.interests.list]]
-    interest = "Music"
+    interest = "Guitar"
 
     [[params.interests.list]]
     interest = "Movies and Documentaries"
 
     [[params.interests.list]]
-    interest = "Advanced Sciences"
+    interest = "Mathematics"
+
+    [[params.interests.list]]
+    interest = "White Papers"
 
 # Main body sections
 
@@ -103,7 +106,7 @@ title = "Interests"
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "**Summarise your career here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu."
+        summary = "I am a software engineer with focus on graphics, computer vision and ML, working in a wide range of industries from gaming, defense and mobile development."
 
     # Experiences section
     [params.experiences]
@@ -112,54 +115,68 @@ title = "Interests"
         title = "Experiences"
 
         [[params.jobs.list]]
-        position = "Lead Developer"
-        dates = "2015 - Present"
-        company = "Startup Hubs, San Francisco"
-        details = "/content/experiences/default.md"
+        position = "C#/C++ Research Graphics Programmer"
+        dates = "(May 2018) – Current"
+        # dates = "(28 May 2018) – Current"
+        company = "Samsung R&D"
+        details = "/content/experiences/samsung.md"
+        tags = [
+            "OpenGL/GLSL",
+            "C#",
+            "Java",
+            "C++",
+            "Python",            
+            "Docker",
+            "Unity & Unreal",
+            "Android Studio",
+            "Visual Studio/Code",  
+            "OpenCV",
+            "Pytorch & Pytorch3D & Numpy",
+            "Tensorboard",
+            "Windows/Linux + Scripting",
+            "Maya/Blender + Scripting",
+            "libigl"
+        ]        
 
         [[params.jobs.list]]
-        position = "Senior Software Engineer"
-        dates = "2014 - 2015"
-        company = "Google, London"
-        details = "/content/experiences/default.md"
+        position = "C#/C++ Graphics Programmer"
+        dates = "(October 2016) – (May 2018)"
+        # dates = "(October 2016) – (25 May 2018)"
+        company = "XPI Simulation"
+        details = "/content/experiences/xpi.md"
+        tags = [
+            "C++",
+            "Unity",
+            "HLSL"
+        ]
 
         [[params.jobs.list]]
-        position = "UI Developer"
-        dates = "2012 - 2014"
-        company = "Amazon, London"
-        details = "/content/experiences/default.md"
+        position = "C++ Graphics Programmer"
+        dates = "(October 2014) – (May 2016)"
+        # dates = "(30 October 2014) – (12 May 2016)"
+        company = "Area 360"
+        details = "/content/experiences/area.md"
+        tags = [
+            "C++", 
+            "Objective C",
+            "GLSL", 
+            "OpenGL"
+        ]
 
-    # Projects section
-    [params.projects]
-        enable = true
-        icon = "fa-archive"
-        title = "Projects"
-        intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
-
-        [[params.projects.list]]
-        title = "Hugrid"
-        url = "https://github.com/aerohub/hugrid"
-        tagline = "Grid theme for Hugo. It's a kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on"
-
-        [[params.projects.list]]
-        title = "Simple FAQ Theme for Hugo"
-        url = "https://github.com/aerohub/hugo-faq-theme"
-        tagline = "Simple FAQ Theme for Hugo. You may use this theme for building very simple FAQs or note lists."
-
-        [[params.projects.list]]
-        title = "Hugo Identity"
-        url = "https://github.com/aerohub/hugo-identity-theme"
-        tagline = "Little profile/card-style template for Hugo."
-
-        [[params.projects.list]]
-        title = "Orbit"
-        url = "https://github.com/aerohub/hugo-orbit-theme"
-        tagline = "Hugo Resume/CV Theme for Developers."
-
-        [[params.projects.list]]
-        title = "Me"
-        url = "https://github.com/aerohub/hugo-me-theme"
-        tagline = "A simple responsive Hugo theme for personal site."
+        [[params.jobs.list]]
+        position = "Games Programmer"
+        dates = "(September 2014) - (October 2014)"
+        # dates = "(22 September 2014) - (23 October 2014)"
+        company = "Outsource Games"
+        details = "/content/experiences/outsource.md"
+        tags = [
+            "Action Scripting", 
+            "Java", 
+            "PHP", 
+            "SQL", 
+            "Dynamo DB",
+            "Flash scripting"
+        ]
 
     # Skills section
     [params.skills]
@@ -168,28 +185,60 @@ title = "Interests"
         title = "Skills & Proficiency"
 
         [[params.skills.list]]
-        skill = "Python & Django"
-        level = "98%"
-                
-        [[params.skills.list]]
-        skill = "Javascript & jQuery"
-        level = "98%"
+        skill = "Docker"
+        level = "80%"
 
         [[params.skills.list]]
-        skill = "Angular"
-        level = "95%"
+        skill = "Python"
+        level = "70%"
+
+        [[params.skills.list]]
+        skill = "C++"
+        level = "70%"
+
+        [[params.skills.list]]
+        skill = "Android Studio"
+        level = "70%"
+
+        [[params.skills.list]]
+        skill = "VS Code & Visual Studio"
+        level = "70%"        
+
+        [[params.skills.list]]
+        skill = "Unity & Unreal"
+        level = "70%"
+
+        [[params.skills.list]]
+        skill = "Maya & Blender"
+        level = "70%"        
+
+        [[params.skills.list]]
+        skill = "C# & JAVA"
+        level = "50%"
+
+        [[params.skills.list]]
+        skill = "OpenGL/GLSL"
+        level = "50%"
+
+        [[params.skills.list]]
+        skill = "DirectX/HLSL"
+        level = "50%"
+
+        [[params.skills.list]]
+        skill = "Gimp & Photoshop"
+        level = "50%"
 
         [[params.skills.list]]
         skill = "HTML5 & CSS"
-        level = "95%"
+        level = "30%"
+
+        [[params.skills.list]]
+        skill = "Javascript"
+        level = "30%"
 
         [[params.skills.list]]
         skill = "Ruby on Rails"
-        level = "75%"
-
-        [[params.skills.list]]
-        skill = "Sketch & Photoshop"
-        level = "60%"
+        level = "10%"        
 
     # Footer section
 
@@ -201,4 +250,4 @@ title = "Interests"
     # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
 
     [params.footer]
-        copyright = ""
+        copyright = "Dustin Dos Santos"

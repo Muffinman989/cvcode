@@ -51,7 +51,7 @@
                 "-p", "1313:1313",
                 "-v", "${workspaceFolder}:/src",
                 "-v", "${workspaceFolder}/.cache:/tmp/hugo_cache",
-                "dokcer.io/hugomods/hugo:exts",
+                "docker.io/hugomods/hugo:exts",
                 "hugo", "server", "--bind", "0.0.0.0", "--poll", "750ms"
             ]
         }
