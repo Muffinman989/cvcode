@@ -203,7 +203,7 @@ p {
 }
 .main-wrapper .job-title {
   color: #3F4650;
-  font-size: 16px;
+  font-size: 20px;
   margin-top: 0;
   margin-bottom: 0;
   font-weight: 500;
@@ -371,3 +371,17 @@ p {
     font-weight: 500;
     margin-bottom: 3px;
   }
+
+ 
+.details p,
+.details ul,
+.details h4,
+.details h5
+{
+  margin-left: 20px;
+}
+
+.details p:first-child
+{
+  margin-left: 0;
+}
