@@ -37,8 +37,8 @@ styles = "custom.css"
     [[params.contact.list]]
         class = "website"
         icon = "fa-globe"
-        url = "//muffinman989.github.io/resume"
-        title = "github.io/resume"
+        url = "//muffinman989.github.io/cvsite"
+        title = "github.io/cvsite"
 
     [[params.contact.list]]
         class = "linkedin"
@@ -115,7 +115,7 @@ title = "Interests"
         title = "Experiences"
 
         [[params.jobs.list]]
-        position = "C#/C++ Research Graphics Programmer"
+        position = "Research Graphics Programmer"
         dates = "(May 2018) – Current"
         # dates = "(28 May 2018) – Current"
         company = "Samsung R&D"
@@ -139,19 +139,20 @@ title = "Interests"
         ]        
 
         [[params.jobs.list]]
-        position = "C#/C++ Graphics Programmer"
+        position = "Graphics Programmer"
         dates = "(October 2016) – (May 2018)"
         # dates = "(October 2016) – (25 May 2018)"
         company = "XPI Simulation"
         details = "/content/experiences/xpi.md"
         tags = [
             "C++",
+            "C#",
             "Unity",
             "HLSL"
         ]
 
         [[params.jobs.list]]
-        position = "C++ Graphics Programmer"
+        position = "Graphics Programmer"
         dates = "(October 2014) – (May 2016)"
         # dates = "(30 October 2014) – (12 May 2016)"
         company = "Area 360"

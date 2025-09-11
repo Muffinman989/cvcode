@@ -223,8 +223,7 @@ p {
 }
 
 .main-wrapper .section {
-  margin-bottom: 60px;
-  page-break-inside: avoid;
+  margin-bottom: 40px;
 }
 
 .main-wrapper .experiences-section .item {
@@ -430,13 +429,7 @@ p {
   margin-bottom: 3px;
 }
 
-.details p,
-.details ul,
-.details h4,
-.details h5 {
-  margin-left: 20px;
-}
-
-.details p:first-child {
-  margin-left: 0;
+.details h4 {
+  border-top: #97AAC3 2px solid;
+  padding-top: 10px;
 }
