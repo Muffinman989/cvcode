@@ -7,7 +7,7 @@ The role involved reading white papers implementing state of the art algorithms 
 A ML model deisgned to generate a predictive frame given a sequence of previous frames within realtime frame rates.
 
 * Experiment with CNN based U-Net Architectures
-* Profile models on Device for realtime proformance
+* Profile models on Device for realtime performance
 * Vulkan Proof of Concept (POC) for shared NPU memory
 
 ##### References
@@ -23,8 +23,8 @@ A realistic 3D avatar capture for mobile devices from single image capture.
 
 ##### Patents
 
-* Name: ""
-* Role: Co-inventor with 7 other colleagues as part of the 3D Avatar Generation at Samsung
+* Name: "Apparatus for BlendShape Retargeting"
+* Inventors: Luca Gagliano (50%) and Dustin Dos Santos (50%) as part of the 3D Avatar Generation at Samsung
 * Status: Pending
 
 ##### References
@@ -41,21 +41,21 @@ The mapping solution between sematically similar blendshapes across meshes with 
 
 * Python based Maya scripts to support Artist workflows for 3D meshes, Demo videos and Finetuning/Testing the Results.
 
+##### Patents
+
+* Name: "Apparatus for BlendShape Remapping"
+* Inventors: Luca Gagliano (40%), Dustin Dos Santos (40%) and Donghoon Han (20%) as part of the Blendshape Mapping
+* Status: Pending
+
 ##### References
 
 * Paper: https://ls7-gv.cs.tu-dortmund.de/publications/2017-faces.pdf
-
-##### Patents
-
-* Name: ""
-* Role: Co-inventor with 3 other colleagues as part of the Blendshape Mapping
-* Status: Pending
 
 #### Cloth Physics
 
 A cloth based physics simulation for clothing items on avatars for mobile devices.
 
-* Mass spring based solution using Euler intergation with time step sizes, spring lengths and dampening requiring a lot of tunning.
+* Mass spring based solution using Euler intergation with time step sizes, spring lengths and dampening requiring a lot of tuning.
 
 * Experimentation with Block based gradient decent with compute shaders.
 
@@ -75,6 +75,6 @@ An ML based solution to drive a skeleton around in a virtual environment with ph
 
 ##### References
 
-* Paper: https://ls7-gv.cs.tu-dortmund.de/publications/2017-faces.pdf
+* WebSite: https://xbpeng.github.io/projects/DeepMimic/index.html
 
 <!-- markdownlint-disable MD041 -->
