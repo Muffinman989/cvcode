@@ -4,10 +4,10 @@ The role involved reading white papers implementing state of the art algorithms 
 
 #### Frame Interpolation
 
-A ML model deisgned to generate a predictive frame given a sequence of previous frames within realtime frame rates.
+A ML model designed to generate a predictive frame given a sequence of previous frames within real-time frame rates.
 
 * Experiment with CNN based U-Net Architectures
-* Profile models on Device for realtime performance
+* Profile models on Device for real-time performance
 * Vulkan Proof of Concept (POC) for shared NPU memory
 
 ##### References
@@ -33,13 +33,13 @@ A realistic 3D avatar capture for mobile devices from single image capture.
 
 #### Blendshape Mapping
 
-The mapping solution between sematically similar blendshapes across meshes with different topological layouts.
+The mapping solution between semantically similar blendshapes across meshes with different topological layouts.
 
 * Optimization based methods with different solvers such as Direct Methods (Decomposition) or Quadratic Programming (Active Sets) with different regularizers and constraints. 
 
 * Experimented with Functional Maps for correspondence mapping between two different meshes involving mapping functions such as scalar functions (Geodesics) defined over a manifold (e.g. mesh) with mathematical operations as constraints designed to solve a linear operator that maps the correspondence.
 
-* Python based Maya scripts to support Artist workflows for 3D meshes, Demo videos and Finetuning/Testing the Results.
+* Python based Maya scripts to support Artist workflows for 3D meshes, Demo videos and Fine-tuning/Testing the Results.
 
 ##### Patents
 
@@ -55,9 +55,9 @@ The mapping solution between sematically similar blendshapes across meshes with 
 
 A cloth based physics simulation for clothing items on avatars for mobile devices.
 
-* Mass spring based solution using Euler intergation with time step sizes, spring lengths and dampening requiring a lot of tuning.
+* Mass spring based solution using Euler integration with time step sizes, spring lengths and dampening requiring a lot of tuning.
 
-* Experimentation with Block based gradient decent with compute shaders.
+* Experimentation with Block based gradient descent with compute shaders.
 
 ##### References
 
@@ -71,7 +71,7 @@ An ML based solution to drive a skeleton around in a virtual environment with ph
 
 * Unreal Engine based solution for Rendering environments with UI and environmental interactions using Blueprints and C++ code.
 
-* Google Protocal buffers for network based integration between python based RL solution to Unreal simulation environments.
+* Google Protocol buffers for network based integration between python based RL solution to Unreal simulation environments.
 
 ##### References
 

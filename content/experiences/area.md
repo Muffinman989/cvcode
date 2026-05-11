@@ -2,11 +2,11 @@
 
 A tech startup company focusing on three key products for venue experiences.
 
-##### Products Under Develpment:
+##### Products Under Development:
 
-- Ticketure a ticking solution for venue staff and vistors
+- Ticketure a ticketing solution for venue staff and visitors
 - TicketKit a proximity based marketing and analytical experiences toolkit
-- STQRY a application designed to allow people to explore venues.
+- STQRY an application designed to allow people to explore venues.
 
 ##### References:
 

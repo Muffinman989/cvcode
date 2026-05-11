@@ -171,7 +171,7 @@ title = "Interests"
         company = "Outsource Games"
         details = "/content/experiences/outsource.md"
         tags = [
-            "Action Scripting", 
+            "ActionScripting", 
             "Java", 
             "PHP", 
             "SQL", 
@@ -212,9 +212,9 @@ title = "Interests"
         [[params.skills.list]]
         skill = "Maya & Blender"
         level = "70%"        
-
+        
         [[params.skills.list]]
-        skill = "C# & JAVA"
+        skill = "C# & Java"
         level = "50%"
 
         [[params.skills.list]]
@@ -234,7 +234,7 @@ title = "Interests"
         level = "30%"
 
         [[params.skills.list]]
-        skill = "Javascript"
+        skill = "JavaScript"
         level = "30%"
 
         [[params.skills.list]]

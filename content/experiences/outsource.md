@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD041 -->
 
-A games company focusing on mobile and web based games directly to the consumer market. The focus was in maintaining and implementing additional features for existing games. 
+A game company focusing on mobile and web based games directly to the consumer market. The focus was in maintaining and implementing additional features for existing games. 
 
 ##### Games Under Development
 
